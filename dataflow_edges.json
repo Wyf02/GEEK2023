@@ -1,0 +1,468 @@
+{
+  "nodes":[
+      {
+          "name":"<org.apache.solr.search.facet.FacetProcessor: boolean handleBlockJoin()>"
+      },
+      {
+          "name":"<org.apache.solr.api.ApiBag$ReqHandlerToApi: void call(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.api.AnnotatedApi$Cmd: void invoke(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse,org.apache.solr.common.util.CommandOperation)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap _nextBucket()>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetRequest: java.lang.Object process(org.apache.solr.search.facet.FacetContext)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrRequestHandler: void handleDisableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.search.SolrReturnFields: void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.util.SolrPluginUtils: java.util.List parseQueryStrings(org.apache.solr.request.SolrQueryRequest,java.lang.String[])>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetProcessor: void process()>"
+      },
+      {
+          "name":"<org.apache.solr.schema.IndexSchema$SolrIndexAnalyzer: void <init>(org.apache.solr.schema.IndexSchema)>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrRequestHandler: void handleStopAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.search.SolrReturnFields: void parseFieldList(java.lang.String[],org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrProcessStateManager: void synchronize()>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrRequestHandler: void handleEnableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.lucene.search.Query parse()>"
+      },
+      {
+          "name":"<org.apache.solr.util.hll.HLL: void homogeneousUnion(org.apache.solr.util.hll.HLL)>"
+      },
+      {
+          "name":"<org.apache.solr.search.Grouping: void addQueryCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.search.Grouping: void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.response.transform.ChildDocTransformerFactory: org.apache.lucene.search.Query parseQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest,java.lang.String)>"
+      },
+      {
+          "name":"<org.apache.solr.search.JoinQParserPlugin$Method$2: org.apache.lucene.search.Query makeFilter(org.apache.solr.search.QParser,org.apache.solr.search.JoinQParserPlugin)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.BlobHandler: void verifyWithRealtimeGet(java.lang.String,long,org.apache.solr.request.SolrQueryRequest,java.util.Map)>"
+      },
+      {
+          "name":"<org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer: java.util.HashMap analyzerCache()>"
+      },
+      {
+          "name":"<org.apache.logging.log4j.core.net.JndiManager: java.lang.Object lookup(java.lang.String)>"
+      },
+      {
+          "name":"<org.apache.solr.core.SolrCore: void execute(org.apache.solr.request.SolrRequestHandler,org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.util.hll.HLL: void addRaw(long)>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetProcessor: void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>"
+      },
+      {
+          "name":"<org.apache.solr.util.hll.HLL: void union(org.apache.solr.util.hll.HLL)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrReplicatorManager: void closeLogReaders()>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetProcessor: void handleDomainChanges()>"
+      },
+      {
+          "name":"<org.apache.solr.handler.designer.SchemaDesignerAPI: void analyze(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrReplicatorManager: void stateUpdate()>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrStateManager: void callback()>"
+      },
+      {
+          "name":"<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query parseParentFilter()>"
+      },
+      {
+          "name":"<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>"
+      },
+      {
+          "name":"<org.apache.solr.schema.ManagedIndexSchema: org.apache.solr.schema.ManagedIndexSchema deleteFieldTypes(java.util.Collection)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.component.StatsComponent: void handleResponses(org.apache.solr.handler.component.ResponseBuilder,org.apache.solr.handler.component.ShardRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.MoreLikeThisHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query wrapSubordinateClause(org.apache.lucene.search.Query)>"
+      },
+      {
+          "name":"<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.search.Grouping: void addFieldCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetProcessor: org.apache.lucene.search.Query parserFilter(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.solr.common.SolrDocument getDocument(java.lang.String)>"
+      },
+      {
+          "name":"<org.apache.solr.schema.IndexSchema: void refreshAnalyzers()>"
+      },
+      {
+          "name":"<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.component.AbstractStatsValues: void accumulate(org.apache.solr.common.util.NamedList)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrRequestHandler: void handleStartAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrBufferStateManager: void synchronize()>"
+      },
+      {
+          "name":"<org.apache.solr.handler.admin.CoreAdminHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.CdcrBufferStateManager: void setState(org.apache.solr.handler.CdcrParams$BufferState)>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap nextBucket()>"
+      },
+      {
+          "name":"<org.apache.solr.handler.BlobHandler: void forward(org.apache.solr.request.SolrQueryRequest,java.lang.String,org.apache.solr.common.params.SolrParams,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void run()>"
+      },
+      {
+          "name":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+      },
+      {
+          "name":"<org.apache.solr.util.SolrPluginUtils: org.apache.lucene.search.Sort getSort(org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void reconnect()>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap access$000(org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream)>"
+      },
+      {
+          "name":"<org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder: org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder setQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+      },
+      {
+          "name":"<org.apache.solr.search.facet.FacetProcessor: void fillBucket(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>"
+      },
+      {
+          "name":"<org.apache.solr.handler.BlobHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+      },
+      {
+          "name":"<org.apache.solr.search.JoinQParserPlugin$1: org.apache.lucene.search.Query parse()>"
+      }
+  ],
+
+
+
+"links":[
+  {
+    "source":"<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>",
+    "target":"<org.apache.logging.log4j.core.net.JndiManager: java.lang.Object lookup(java.lang.String)>"
+  },
+  {
+    "source":"<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>",
+    "target":"<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>"
+  },
+  {
+    "source":"<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void reconnect()>",
+    "target":"<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>"
+  },
+  {
+    "source":"<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void run()>",
+    "target":"<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void reconnect()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.admin.CoreAdminHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void run()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.admin.CoreAdminHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+  },
+  {
+    "source":"<org.apache.solr.api.ApiBag$ReqHandlerToApi: void call(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+  },
+  {
+    "source":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.solr.common.SolrDocument getDocument(java.lang.String)>",
+    "target":"<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+  },
+  {
+    "source":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.lucene.search.Query parse()>",
+    "target":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.solr.common.SolrDocument getDocument(java.lang.String)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.BlobHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.lucene.search.Query parse()>"
+  },
+  {
+    "source":"<org.apache.solr.search.JoinQParserPlugin$Method$2: org.apache.lucene.search.Query makeFilter(org.apache.solr.search.QParser,org.apache.solr.search.JoinQParserPlugin)>",
+    "target":"<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.lucene.search.Query parse()>"
+  },
+  {
+    "source":"<org.apache.solr.search.JoinQParserPlugin$1: org.apache.lucene.search.Query parse()>",
+    "target":"<org.apache.solr.search.JoinQParserPlugin$Method$2: org.apache.lucene.search.Query makeFilter(org.apache.solr.search.QParser,org.apache.solr.search.JoinQParserPlugin)>"
+  },
+  {
+    "source":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+    "target":"<org.apache.solr.search.JoinQParserPlugin$1: org.apache.lucene.search.Query parse()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.MoreLikeThisHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetProcessor: boolean handleBlockJoin()>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetProcessor: void handleDomainChanges()>",
+    "target":"<org.apache.solr.search.facet.FacetProcessor: boolean handleBlockJoin()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetProcessor: void process()>",
+    "target":"<org.apache.solr.search.facet.FacetProcessor: void handleDomainChanges()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetRequest: java.lang.Object process(org.apache.solr.search.facet.FacetContext)>",
+    "target":"<org.apache.solr.search.facet.FacetProcessor: void process()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetProcessor: void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+    "target":"<org.apache.solr.search.facet.FacetRequest: java.lang.Object process(org.apache.solr.search.facet.FacetContext)>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetProcessor: void fillBucket(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+    "target":"<org.apache.solr.search.facet.FacetProcessor: void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap _nextBucket()>",
+    "target":"<org.apache.solr.search.facet.FacetProcessor: void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap nextBucket()>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap _nextBucket()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap access$000(org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream)>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap nextBucket()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap access$000(org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream)>"
+  },
+  {
+    "source":"<org.apache.solr.api.AnnotatedApi$Cmd: void invoke(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse,org.apache.solr.common.util.CommandOperation)>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>"
+  },
+  {
+    "source":"<org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer: java.util.HashMap analyzerCache()>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>"
+  },
+  {
+    "source":"<org.apache.solr.schema.IndexSchema$SolrIndexAnalyzer: void <init>(org.apache.solr.schema.IndexSchema)>",
+    "target":"<org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer: java.util.HashMap analyzerCache()>"
+  },
+  {
+    "source":"<org.apache.solr.schema.IndexSchema: void refreshAnalyzers()>",
+    "target":"<org.apache.solr.schema.IndexSchema$SolrIndexAnalyzer: void <init>(org.apache.solr.schema.IndexSchema)>"
+  },
+  {
+    "source":"<org.apache.solr.schema.ManagedIndexSchema: org.apache.solr.schema.ManagedIndexSchema deleteFieldTypes(java.util.Collection)>",
+    "target":"<org.apache.solr.schema.IndexSchema: void refreshAnalyzers()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>",
+    "target":"<org.apache.solr.schema.ManagedIndexSchema: org.apache.solr.schema.ManagedIndexSchema deleteFieldTypes(java.util.Collection)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>",
+    "target":"<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.designer.SchemaDesignerAPI: void analyze(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>"
+  },
+  {
+    "source":"<org.apache.solr.util.hll.HLL: void addRaw(long)>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>"
+  },
+  {
+    "source":"<org.apache.solr.util.hll.HLL: void homogeneousUnion(org.apache.solr.util.hll.HLL)>",
+    "target":"<org.apache.solr.util.hll.HLL: void addRaw(long)>"
+  },
+  {
+    "source":"<org.apache.solr.util.hll.HLL: void union(org.apache.solr.util.hll.HLL)>",
+    "target":"<org.apache.solr.util.hll.HLL: void homogeneousUnion(org.apache.solr.util.hll.HLL)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.component.AbstractStatsValues: void accumulate(org.apache.solr.common.util.NamedList)>",
+    "target":"<org.apache.solr.util.hll.HLL: void union(org.apache.solr.util.hll.HLL)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.component.StatsComponent: void handleResponses(org.apache.solr.handler.component.ResponseBuilder,org.apache.solr.handler.component.ShardRequest)>",
+    "target":"<org.apache.solr.handler.component.AbstractStatsValues: void accumulate(org.apache.solr.common.util.NamedList)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrReplicatorManager: void closeLogReaders()>",
+    "target":"<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrReplicatorManager: void stateUpdate()>",
+    "target":"<org.apache.solr.handler.CdcrReplicatorManager: void closeLogReaders()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrStateManager: void callback()>",
+    "target":"<org.apache.solr.handler.CdcrReplicatorManager: void stateUpdate()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+    "target":"<org.apache.solr.handler.CdcrStateManager: void callback()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrRequestHandler: void handleStartAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrProcessStateManager: void synchronize()>",
+    "target":"<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrRequestHandler: void handleStopAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.CdcrProcessStateManager: void synchronize()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrBufferStateManager: void setState(org.apache.solr.handler.CdcrParams$BufferState)>",
+    "target":"<org.apache.solr.handler.CdcrStateManager: void callback()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrRequestHandler: void handleEnableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.CdcrBufferStateManager: void setState(org.apache.solr.handler.CdcrParams$BufferState)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrBufferStateManager: void synchronize()>",
+    "target":"<org.apache.solr.handler.CdcrBufferStateManager: void setState(org.apache.solr.handler.CdcrParams$BufferState)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.CdcrRequestHandler: void handleDisableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.CdcrBufferStateManager: void synchronize()>"
+  },
+  {
+    "source":"<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query parseParentFilter()>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query wrapSubordinateClause(org.apache.lucene.search.Query)>",
+    "target":"<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query parseParentFilter()>"
+  },
+  {
+    "source":"<org.apache.solr.util.SolrPluginUtils: java.util.List parseQueryStrings(org.apache.solr.request.SolrQueryRequest,java.lang.String[])>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>"
+  },
+  {
+    "source":"<org.apache.solr.util.SolrPluginUtils: org.apache.lucene.search.Sort getSort(org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+  },
+  {
+    "source":"<org.apache.solr.search.SolrReturnFields: void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.SolrReturnFields: void parseFieldList(java.lang.String[],org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.SolrReturnFields: void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>"
+  },
+  {
+    "source":"<org.apache.solr.search.Grouping: void addQueryCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.Grouping: void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.Grouping: void addFieldCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.Grouping: void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>"
+  },
+  {
+    "source":"<org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder: org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder setQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.search.facet.FacetProcessor: org.apache.lucene.search.Query parserFilter(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.response.transform.ChildDocTransformerFactory: org.apache.lucene.search.Query parseQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest,java.lang.String)>",
+    "target":"<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>"
+  },
+  {
+    "source":"<org.apache.solr.handler.BlobHandler: void forward(org.apache.solr.request.SolrQueryRequest,java.lang.String,org.apache.solr.common.params.SolrParams,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+  },
+  {
+    "source":"<org.apache.solr.handler.BlobHandler: void verifyWithRealtimeGet(java.lang.String,long,org.apache.solr.request.SolrQueryRequest,java.util.Map)>",
+    "target":"<org.apache.solr.handler.BlobHandler: void forward(org.apache.solr.request.SolrQueryRequest,java.lang.String,org.apache.solr.common.params.SolrParams,org.apache.solr.response.SolrQueryResponse)>"
+  },
+  {
+    "source":"<org.apache.solr.core.SolrCore: void execute(org.apache.solr.request.SolrRequestHandler,org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+    "target":"<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>"
+  }
+
+]
+}

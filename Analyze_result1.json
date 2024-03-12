@@ -1,0 +1,377 @@
+{
+  "callStackRecords": [
+    {
+            "id":0,
+            "paramInd": "0",
+            "valueStr": "r1",
+            "methodStr": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+            "typeStr": "java.lang.Object[]",
+
+        "children": [
+            {
+              "paramInd": "0",
+              "valueStr": "r1",
+              "methodStr": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "typeStr": "java.lang.Object[]",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object,com.alibaba.fastjson.serializer.SerializeFilter[],com.alibaba.fastjson.serializer.SerializerFeature[])>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r6",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object,com.alibaba.fastjson.serializer.SerializeConfig,com.alibaba.fastjson.serializer.SerializeFilter[],java.lang.String,int,com.alibaba.fastjson.serializer.SerializerFeature[])>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void write(java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r3",
+              "methodStr": "<com.alibaba.fastjson.serializer.ListSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.ObjectArrayCodec: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r1",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void writeWithFieldName(java.lang.Object,java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void writeWithFieldName(java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.MapSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.MapSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int,boolean)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "4",
+              "valueStr": "r23",
+              "methodStr": "<com.alibaba.fastjson.serializer.SerializeFilterable: java.lang.Object processValue(com.alibaba.fastjson.serializer.JSONSerializer,com.alibaba.fastjson.serializer.BeanContext,java.lang.Object,java.lang.String,java.lang.Object,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String)>",
+              "typeStr": "java.lang.String",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            }
+          ],
+      "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String)>"
+    },
+    {   
+      "id":1,        
+    "paramInd": "0",
+            "valueStr": "r1",
+            "methodStr": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+            "typeStr": "java.lang.Object[]",
+        "children": [
+            {
+              "paramInd": "0",
+              "valueStr": "r1",
+              "methodStr": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "typeStr": "java.lang.Object[]",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object,com.alibaba.fastjson.serializer.SerializeFilter[],com.alibaba.fastjson.serializer.SerializerFeature[])>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r6",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object,com.alibaba.fastjson.serializer.SerializeConfig,com.alibaba.fastjson.serializer.SerializeFilter[],java.lang.String,int,com.alibaba.fastjson.serializer.SerializerFeature[])>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void write(java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r3",
+              "methodStr": "<com.alibaba.fastjson.serializer.ListSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.ObjectArrayCodec: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r1",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void writeWithFieldName(java.lang.Object,java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void writeWithFieldName(java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.MapSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.MapSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int,boolean)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "4",
+              "valueStr": "r23",
+              "methodStr": "<com.alibaba.fastjson.serializer.SerializeFilterable: java.lang.Object processValue(com.alibaba.fastjson.serializer.JSONSerializer,com.alibaba.fastjson.serializer.BeanContext,java.lang.Object,java.lang.String,java.lang.Object,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String)>",
+              "typeStr": "java.lang.String",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>",
+              "typeStr": "java.lang.String",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>",
+              "typeStr": "java.lang.String",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+            }
+          ],
+      "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,com.alibaba.fastjson.parser.ParserConfig,int)>"
+    },
+    {
+      "id":2,
+            "paramInd": "0",
+            "valueStr": "r1",
+            "methodStr": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+            "typeStr": "java.lang.Object[]",
+       
+        "children": [
+            {
+              "paramInd": "0",
+              "valueStr": "r1",
+              "methodStr": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "typeStr": "java.lang.Object[]",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object,com.alibaba.fastjson.serializer.SerializeFilter[],com.alibaba.fastjson.serializer.SerializerFeature[])>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r6",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.String toJSONString(java.lang.Object,com.alibaba.fastjson.serializer.SerializeConfig,com.alibaba.fastjson.serializer.SerializeFilter[],java.lang.String,int,com.alibaba.fastjson.serializer.SerializerFeature[])>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void write(java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r3",
+              "methodStr": "<com.alibaba.fastjson.serializer.ListSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.ObjectArrayCodec: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r1",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void writeWithFieldName(java.lang.Object,java.lang.Object)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.serializer.JSONSerializer: void writeWithFieldName(java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.MapSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "1",
+              "valueStr": "r2",
+              "methodStr": "<com.alibaba.fastjson.serializer.MapSerializer: void write(com.alibaba.fastjson.serializer.JSONSerializer,java.lang.Object,java.lang.Object,java.lang.reflect.Type,int,boolean)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "4",
+              "valueStr": "r23",
+              "methodStr": "<com.alibaba.fastjson.serializer.SerializeFilterable: java.lang.Object processValue(com.alibaba.fastjson.serializer.JSONSerializer,com.alibaba.fastjson.serializer.BeanContext,java.lang.Object,java.lang.String,java.lang.Object,int)>",
+              "typeStr": "java.lang.Object",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String)>",
+              "typeStr": "java.lang.String",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            },
+            {
+              "paramInd": "0",
+              "valueStr": "r0",
+              "methodStr": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>",
+              "typeStr": "java.lang.String",
+              "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+              "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+            }
+          ],
+      "fromMethod": "<com.alibaba.dubbo.common.utils.StringUtils: java.lang.String toArgumentString(java.lang.Object[])>",
+      "toMethod": "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String,int)>"
+    }
+  ],
+  "hasCallChain": true,
+  "callChainCount": 3
+}

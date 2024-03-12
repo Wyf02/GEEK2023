@@ -1,0 +1,955 @@
+{
+    "nodes": [
+        {
+            "name": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "shortname": "xstream",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "org.dom4j:dom4j:jar:2.0.2:compile (optional) ",
+            "shortname": "dom4j",
+            "type": "jar",
+            "version": "2.0.2",
+            "maketype": "dom4j"
+        },
+        {
+            "name": "org.jdom:jdom:jar:1.1.3:compile (optional) ",
+            "shortname": "jdom",
+            "type": "jar",
+            "version": "1.1.3",
+            "maketype": "jdom"
+        },
+        {
+            "name": "org.jdom:jdom2:jar:2.0.6:compile (optional) ",
+            "shortname": "jdom2",
+            "type": "jar",
+            "version": "2.0.6",
+            "maketype": "jdom"
+        },
+        {
+            "name": "joda-time:joda-time:jar:2.10.1:compile (optional) ",
+            "shortname": "joda-time",
+            "type": "jar",
+            "version": "2.10.1",
+            "maketype": "joda-time"
+        },
+        {
+            "name": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:compile (optional) ",
+            "shortname": "woodstox-core",
+            "type": "jar",
+            "version": "6.4.0",
+            "maketype": "fasterxml"
+        },
+        {
+            "name": "stax:stax:jar:1.2.0:compile (optional) ",
+            "shortname": "stax",
+            "type": "jar",
+            "version": "1.2.0",
+            "maketype": "stax"
+        },
+        {
+            "name": "xom:xom:jar:1.3.2:compile (optional) ",
+            "shortname": "xom",
+            "type": "jar",
+            "version": "1.3.2",
+            "maketype": "xom"
+        },
+        {
+            "name": "io.github.x-stream:mxparser:jar:1.2.2:compile",
+            "shortname": "mxparser",
+            "type": "jar",
+            "version": "1.2.2",
+            "maketype": "github"
+        },
+        {
+            "name": "net.sf.kxml:kxml2-min:jar:2.3.0:compile (optional) ",
+            "shortname": "kxml2-min",
+            "type": "jar",
+            "version": "2.3.0",
+            "maketype": "sf"
+        },
+        {
+            "name": "xpp3:xpp3_min:jar:1.1.4c:compile (optional) ",
+            "shortname": "xpp3_min",
+            "type": "jar",
+            "version": "1.1.4c",
+            "maketype": "xpp3"
+        },
+        {
+            "name": "cglib:cglib-nodep:jar:2.2:compile (optional) ",
+            "shortname": "cglib-nodep",
+            "type": "jar",
+            "version": "2.2",
+            "maketype": "cglib"
+        },
+        {
+            "name": "org.codehaus.jettison:jettison:jar:1.4.1:compile (optional) ",
+            "shortname": "jettison",
+            "type": "jar",
+            "version": "1.4.1",
+            "maketype": "codehaus"
+        },
+        {
+            "name": "jakarta.activation:jakarta.activation-api:jar:1.2.1:compile (optional) ",
+            "shortname": "jakarta.activation-api",
+            "type": "jar",
+            "version": "1.2.1",
+            "maketype": "activation"
+        },
+        {
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:provided",
+            "shortname": "jakarta.xml.bind-api",
+            "type": "jar",
+            "version": "2.3.2",
+            "maketype": "xml"
+        },
+        {
+            "name": "junit:junit:jar:3.8.1:test",
+            "shortname": "junit",
+            "type": "jar",
+            "version": "3.8.1",
+            "maketype": "junit"
+        },
+        {
+            "name": "jmock:jmock:jar:1.0.1:test",
+            "shortname": "jmock",
+            "type": "jar",
+            "version": "1.0.1",
+            "maketype": "jmock"
+        },
+        {
+            "name": "org.json:json:jar:20180813:test",
+            "shortname": "json",
+            "type": "jar",
+            "version": "20180813",
+            "maketype": "json"
+        },
+        {
+            "name": "com.megginson.sax:xml-writer:jar:0.2:test",
+            "shortname": "xml-writer",
+            "type": "jar",
+            "version": "0.2",
+            "maketype": "megginson"
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:jar:3.8.1:test",
+            "shortname": "commons-lang3",
+            "type": "jar",
+            "version": "3.8.1",
+            "maketype": "apache"
+        },
+        {
+            "name": "com.sun.xml.ws:jaxws-rt:jar:2.2:test",
+            "shortname": "jaxws-rt",
+            "type": "jar",
+            "version": "2.2",
+            "maketype": "sun"
+        },
+        {
+            "name": "org.codehaus.woodstox:stax2-api:jar:4.2.1:compile (optional) ",
+            "shortname": "stax2-api",
+            "type": "jar",
+            "version": "4.2.1",
+            "maketype": "codehaus"
+        },
+        {
+            "name": "xmlpull:xmlpull:jar:1.1.3.1:compile",
+            "shortname": "xmlpull",
+            "type": "jar",
+            "version": "1.1.3.1",
+            "maketype": "xmlpull"
+        },
+        {
+            "name": "org.codehaus.woodstox:wstx-asl:jar:3.2.3:test",
+            "shortname": "wstx-asl",
+            "type": "jar",
+            "version": "3.2.3",
+            "maketype": "codehaus"
+        },
+        {
+            "name": "stax:stax-api:jar:1.0.1:test",
+            "shortname": "stax-api",
+            "type": "jar",
+            "version": "1.0.1",
+            "maketype": "stax"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "shortname": "xstream-hibernate",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:compile",
+            "shortname": "xstream",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream:test-jar:tests:1.5.0-SNAPSHOT:test",
+            "shortname": "xstream",
+            "type": "test-jar",
+            "version": "1.5.0-SNAPSHOT-tests",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "shortname": "hibernate-core",
+            "type": "jar",
+            "version": "4.2.5.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.hibernate:hibernate-envers:jar:4.2.5.Final:compile (optional) ",
+            "shortname": "hibernate-envers",
+            "type": "jar",
+            "version": "4.2.5.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.hsqldb:hsqldb:jar:2.2.8:test",
+            "shortname": "hsqldb",
+            "type": "jar",
+            "version": "2.2.8",
+            "maketype": "hsqldb"
+        },
+        {
+            "name": "org.slf4j:slf4j-simple:jar:1.6.1:provided",
+            "shortname": "slf4j-simple",
+            "type": "jar",
+            "version": "1.6.1",
+            "maketype": "slf4j"
+        },
+        {
+            "name": "javassist:javassist:jar:3.12.1.GA:provided",
+            "shortname": "javassist",
+            "type": "jar",
+            "version": "3.12.1.GA",
+            "maketype": "javassist"
+        },
+        {
+            "name": "cglib:cglib-nodep:jar:2.2:provided",
+            "shortname": "cglib-nodep",
+            "type": "jar",
+            "version": "2.2",
+            "maketype": "cglib"
+        },
+        {
+            "name": "antlr:antlr:jar:2.7.7:compile",
+            "shortname": "antlr",
+            "type": "jar",
+            "version": "2.7.7",
+            "maketype": "antlr"
+        },
+        {
+            "name": "org.jboss.logging:jboss-logging:jar:3.1.0.GA:compile",
+            "shortname": "jboss-logging",
+            "type": "jar",
+            "version": "3.1.0.GA",
+            "maketype": "jboss"
+        },
+        {
+            "name": "dom4j:dom4j:jar:1.6.1:compile",
+            "shortname": "dom4j",
+            "type": "jar",
+            "version": "1.6.1",
+            "maketype": "dom4j"
+        },
+        {
+            "name": "org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:compile",
+            "shortname": "jboss-transaction-api_1.1_spec",
+            "type": "jar",
+            "version": "1.0.1.Final",
+            "maketype": "jboss"
+        },
+        {
+            "name": "org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile",
+            "shortname": "hibernate-jpa-2.0-api",
+            "type": "jar",
+            "version": "1.0.1.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final:compile",
+            "shortname": "hibernate-commons-annotations",
+            "type": "jar",
+            "version": "4.0.2.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.javassist:javassist:jar:3.15.0-GA:compile",
+            "shortname": "javassist",
+            "type": "jar",
+            "version": "3.15.0-GA",
+            "maketype": "javassist"
+        },
+        {
+            "name": "org.hibernate:hibernate-entitymanager:jar:4.2.5.Final:compile (optional) ",
+            "shortname": "hibernate-entitymanager",
+            "type": "jar",
+            "version": "4.2.5.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.slf4j:slf4j-api:jar:1.6.1:runtime",
+            "shortname": "slf4j-api",
+            "type": "jar",
+            "version": "1.6.1",
+            "maketype": "slf4j"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "shortname": "xstream-jmh",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "org.openjdk.jmh:jmh-core:jar:1.21:compile",
+            "shortname": "jmh-core",
+            "type": "jar",
+            "version": "1.21",
+            "maketype": "openjdk"
+        },
+        {
+            "name": "org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:provided",
+            "shortname": "jmh-generator-annprocess",
+            "type": "jar",
+            "version": "1.21",
+            "maketype": "openjdk"
+        },
+        {
+            "name": "commons-codec:commons-codec:jar:1.11:compile",
+            "shortname": "commons-codec",
+            "type": "jar",
+            "version": "1.11",
+            "maketype": "commons-codec"
+        },
+        {
+            "name": "com.brsanthu:migbase64:jar:2.2:compile",
+            "shortname": "migbase64",
+            "type": "jar",
+            "version": "2.2",
+            "maketype": "brsanthu"
+        },
+        {
+            "name": "io.github.x-stream:mxparser:jar:1.2.2:runtime",
+            "shortname": "mxparser",
+            "type": "jar",
+            "version": "1.2.2",
+            "maketype": "github"
+        },
+        {
+            "name": "xpp3:xpp3_min:jar:1.1.4c:runtime",
+            "shortname": "xpp3_min",
+            "type": "jar",
+            "version": "1.1.4c",
+            "maketype": "xpp3"
+        },
+        {
+            "name": "net.sf.kxml:kxml2-min:jar:2.3.0:runtime",
+            "shortname": "kxml2-min",
+            "type": "jar",
+            "version": "2.3.0",
+            "maketype": "sf"
+        },
+        {
+            "name": "stax:stax:jar:1.2.0:runtime",
+            "shortname": "stax",
+            "type": "jar",
+            "version": "1.2.0",
+            "maketype": "stax"
+        },
+        {
+            "name": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:runtime",
+            "shortname": "woodstox-core",
+            "type": "jar",
+            "version": "6.4.0",
+            "maketype": "fasterxml"
+        },
+        {
+            "name": "org.dom4j:dom4j:jar:2.0.2:runtime",
+            "shortname": "dom4j",
+            "type": "jar",
+            "version": "2.0.2",
+            "maketype": "dom4j"
+        },
+        {
+            "name": "org.jdom:jdom:jar:1.1.3:runtime",
+            "shortname": "jdom",
+            "type": "jar",
+            "version": "1.1.3",
+            "maketype": "jdom"
+        },
+        {
+            "name": "org.jdom:jdom2:jar:2.0.6:runtime",
+            "shortname": "jdom2",
+            "type": "jar",
+            "version": "2.0.6",
+            "maketype": "jdom"
+        },
+        {
+            "name": "xom:xom:jar:1.3.2:runtime",
+            "shortname": "xom",
+            "type": "jar",
+            "version": "1.3.2",
+            "maketype": "xom"
+        },
+        {
+            "name": "org.codehaus.jettison:jettison:jar:1.4.1:runtime",
+            "shortname": "jettison",
+            "type": "jar",
+            "version": "1.4.1",
+            "maketype": "codehaus"
+        },
+        {
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile",
+            "shortname": "jakarta.xml.bind-api",
+            "type": "jar",
+            "version": "2.3.2",
+            "maketype": "xml"
+        },
+        {
+            "name": "net.sf.jopt-simple:jopt-simple:jar:4.6:compile",
+            "shortname": "jopt-simple",
+            "type": "jar",
+            "version": "4.6",
+            "maketype": "sf"
+        },
+        {
+            "name": "org.apache.commons:commons-math3:jar:3.2:compile",
+            "shortname": "commons-math3",
+            "type": "jar",
+            "version": "3.2",
+            "maketype": "apache"
+        },
+        {
+            "name": "xmlpull:xmlpull:jar:1.1.3.1:runtime",
+            "shortname": "xmlpull",
+            "type": "jar",
+            "version": "1.1.3.1",
+            "maketype": "xmlpull"
+        },
+        {
+            "name": "org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime",
+            "shortname": "stax2-api",
+            "type": "jar",
+            "version": "4.2.1",
+            "maketype": "codehaus"
+        },
+        {
+            "name": "jakarta.activation:jakarta.activation-api:jar:1.2.1:compile",
+            "shortname": "jakarta.activation-api",
+            "type": "jar",
+            "version": "1.2.1",
+            "maketype": "activation"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream-distribution:pom:1.5.0-SNAPSHOT",
+            "shortname": "xstream-distribution",
+            "type": "pom",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:runtime",
+            "shortname": "xstream",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT:runtime",
+            "shortname": "xstream-hibernate",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "shortname": "xstream-jmh",
+            "type": "jar",
+            "version": "1.5.0-SNAPSHOT",
+            "maketype": "thoughtworks"
+        },
+        {
+            "name": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "shortname": "hibernate-core",
+            "type": "jar",
+            "version": "4.2.5.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "antlr:antlr:jar:2.7.7:runtime",
+            "shortname": "antlr",
+            "type": "jar",
+            "version": "2.7.7",
+            "maketype": "antlr"
+        },
+        {
+            "name": "org.jboss.logging:jboss-logging:jar:3.1.0.GA:runtime",
+            "shortname": "jboss-logging",
+            "type": "jar",
+            "version": "3.1.0.GA",
+            "maketype": "jboss"
+        },
+        {
+            "name": "dom4j:dom4j:jar:1.6.1:runtime",
+            "shortname": "dom4j",
+            "type": "jar",
+            "version": "1.6.1",
+            "maketype": "dom4j"
+        },
+        {
+            "name": "org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:runtime",
+            "shortname": "jboss-transaction-api_1.1_spec",
+            "type": "jar",
+            "version": "1.0.1.Final",
+            "maketype": "jboss"
+        },
+        {
+            "name": "org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:runtime",
+            "shortname": "hibernate-jpa-2.0-api",
+            "type": "jar",
+            "version": "1.0.1.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final:runtime",
+            "shortname": "hibernate-commons-annotations",
+            "type": "jar",
+            "version": "4.0.2.Final",
+            "maketype": "hibernate"
+        },
+        {
+            "name": "org.javassist:javassist:jar:3.15.0-GA:runtime",
+            "shortname": "javassist",
+            "type": "jar",
+            "version": "3.15.0-GA",
+            "maketype": "javassist"
+        },
+        {
+            "name": "org.openjdk.jmh:jmh-core:jar:1.21:runtime",
+            "shortname": "jmh-core",
+            "type": "jar",
+            "version": "1.21",
+            "maketype": "openjdk"
+        },
+        {
+            "name": "commons-codec:commons-codec:jar:1.11:runtime",
+            "shortname": "commons-codec",
+            "type": "jar",
+            "version": "1.11",
+            "maketype": "commons-codec"
+        },
+        {
+            "name": "com.brsanthu:migbase64:jar:2.2:runtime",
+            "shortname": "migbase64",
+            "type": "jar",
+            "version": "2.2",
+            "maketype": "brsanthu"
+        },
+        {
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:runtime",
+            "shortname": "jakarta.xml.bind-api",
+            "type": "jar",
+            "version": "2.3.2",
+            "maketype": "xml"
+        },
+        {
+            "name": "net.sf.jopt-simple:jopt-simple:jar:4.6:runtime",
+            "shortname": "jopt-simple",
+            "type": "jar",
+            "version": "4.6",
+            "maketype": "sf"
+        },
+        {
+            "name": "org.apache.commons:commons-math3:jar:3.2:runtime",
+            "shortname": "commons-math3",
+            "type": "jar",
+            "version": "3.2",
+            "maketype": "apache"
+        },
+        {
+            "name": "jakarta.activation:jakarta.activation-api:jar:1.2.1:runtime",
+            "shortname": "jakarta.activation-api",
+            "type": "jar",
+            "version": "1.2.1",
+            "maketype": "activation"
+        }
+    ],
+    "links": [
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "org.dom4j:dom4j:jar:2.0.2:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "org.jdom:jdom:jar:1.1.3:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "org.jdom:jdom2:jar:2.0.6:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "joda-time:joda-time:jar:2.10.1:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "stax:stax:jar:1.2.0:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "xom:xom:jar:1.3.2:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "io.github.x-stream:mxparser:jar:1.2.2:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "net.sf.kxml:kxml2-min:jar:2.3.0:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "xpp3:xpp3_min:jar:1.1.4c:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "cglib:cglib-nodep:jar:2.2:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "org.codehaus.jettison:jettison:jar:1.4.1:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "jakarta.activation:jakarta.activation-api:jar:1.2.1:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:provided"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "junit:junit:jar:3.8.1:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "jmock:jmock:jar:1.0.1:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "org.json:json:jar:20180813:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "com.megginson.sax:xml-writer:jar:0.2:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "org.apache.commons:commons-lang3:jar:3.8.1:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT",
+            "target": "com.sun.xml.ws:jaxws-rt:jar:2.2:test"
+        },
+        {
+            "source": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:compile (optional) ",
+            "target": "org.codehaus.woodstox:stax2-api:jar:4.2.1:compile (optional) "
+        },
+        {
+            "source": "io.github.x-stream:mxparser:jar:1.2.2:compile",
+            "target": "xmlpull:xmlpull:jar:1.1.3.1:compile"
+        },
+        {
+            "source": "com.sun.xml.ws:jaxws-rt:jar:2.2:test",
+            "target": "org.codehaus.woodstox:wstx-asl:jar:3.2.3:test"
+        },
+        {
+            "source": "org.codehaus.woodstox:wstx-asl:jar:3.2.3:test",
+            "target": "stax:stax-api:jar:1.0.1:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "com.thoughtworks.xstream:xstream:test-jar:tests:1.5.0-SNAPSHOT:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "org.hibernate:hibernate-envers:jar:4.2.5.Final:compile (optional) "
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "org.hsqldb:hsqldb:jar:2.2.8:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "org.slf4j:slf4j-simple:jar:1.6.1:provided"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "javassist:javassist:jar:3.12.1.GA:provided"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "cglib:cglib-nodep:jar:2.2:provided"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT",
+            "target": "junit:junit:jar:3.8.1:test"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:compile",
+            "target": "io.github.x-stream:mxparser:jar:1.2.2:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "antlr:antlr:jar:2.7.7:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "org.jboss.logging:jboss-logging:jar:3.1.0.GA:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "dom4j:dom4j:jar:1.6.1:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:compile",
+            "target": "org.javassist:javassist:jar:3.15.0-GA:compile"
+        },
+        {
+            "source": "org.hibernate:hibernate-envers:jar:4.2.5.Final:compile (optional) ",
+            "target": "org.hibernate:hibernate-entitymanager:jar:4.2.5.Final:compile (optional) "
+        },
+        {
+            "source": "org.slf4j:slf4j-simple:jar:1.6.1:provided",
+            "target": "org.slf4j:slf4j-api:jar:1.6.1:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "org.openjdk.jmh:jmh-core:jar:1.21:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:provided"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "commons-codec:commons-codec:jar:1.11:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "com.brsanthu:migbase64:jar:2.2:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "io.github.x-stream:mxparser:jar:1.2.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "xpp3:xpp3_min:jar:1.1.4c:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "net.sf.kxml:kxml2-min:jar:2.3.0:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "stax:stax:jar:1.2.0:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "org.dom4j:dom4j:jar:2.0.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "org.jdom:jdom:jar:1.1.3:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "org.jdom:jdom2:jar:2.0.6:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "xom:xom:jar:1.3.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "org.codehaus.jettison:jettison:jar:1.4.1:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT",
+            "target": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile"
+        },
+        {
+            "source": "org.openjdk.jmh:jmh-core:jar:1.21:compile",
+            "target": "net.sf.jopt-simple:jopt-simple:jar:4.6:compile"
+        },
+        {
+            "source": "org.openjdk.jmh:jmh-core:jar:1.21:compile",
+            "target": "org.apache.commons:commons-math3:jar:3.2:compile"
+        },
+        {
+            "source": "io.github.x-stream:mxparser:jar:1.2.2:runtime",
+            "target": "xmlpull:xmlpull:jar:1.1.3.1:runtime"
+        },
+        {
+            "source": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:runtime",
+            "target": "org.codehaus.woodstox:stax2-api:jar:4.2.1:runtime"
+        },
+        {
+            "source": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:compile",
+            "target": "jakarta.activation:jakarta.activation-api:jar:1.2.1:compile"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-distribution:pom:1.5.0-SNAPSHOT",
+            "target": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-distribution:pom:1.5.0-SNAPSHOT",
+            "target": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-distribution:pom:1.5.0-SNAPSHOT",
+            "target": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "io.github.x-stream:mxparser:jar:1.2.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-hibernate:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "antlr:antlr:jar:2.7.7:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "org.jboss.logging:jboss-logging:jar:3.1.0.GA:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "dom4j:dom4j:jar:1.6.1:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final:runtime"
+        },
+        {
+            "source": "org.hibernate:hibernate-core:jar:4.2.5.Final:runtime",
+            "target": "org.javassist:javassist:jar:3.15.0-GA:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "org.openjdk.jmh:jmh-core:jar:1.21:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "commons-codec:commons-codec:jar:1.11:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "com.brsanthu:migbase64:jar:2.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "xpp3:xpp3_min:jar:1.1.4c:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "net.sf.kxml:kxml2-min:jar:2.3.0:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "stax:stax:jar:1.2.0:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "com.fasterxml.woodstox:woodstox-core:jar:6.4.0:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "org.dom4j:dom4j:jar:2.0.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "org.jdom:jdom:jar:1.1.3:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "org.jdom:jdom2:jar:2.0.6:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "xom:xom:jar:1.3.2:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "org.codehaus.jettison:jettison:jar:1.4.1:runtime"
+        },
+        {
+            "source": "com.thoughtworks.xstream:xstream-jmh:jar:1.5.0-SNAPSHOT:runtime",
+            "target": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:runtime"
+        },
+        {
+            "source": "org.openjdk.jmh:jmh-core:jar:1.21:runtime",
+            "target": "net.sf.jopt-simple:jopt-simple:jar:4.6:runtime"
+        },
+        {
+            "source": "org.openjdk.jmh:jmh-core:jar:1.21:runtime",
+            "target": "org.apache.commons:commons-math3:jar:3.2:runtime"
+        },
+        {
+            "source": "jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2:runtime",
+            "target": "jakarta.activation:jakarta.activation-api:jar:1.2.1:runtime"
+        }
+    ]
+}

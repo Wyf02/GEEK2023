@@ -1,0 +1,49 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "analytics",
+            "children": [
+                {
+                    "name": "cluster",
+                    "children": [
+                        "AgglomerativeCluster",
+                        "CommunityStructure"
+                    
+                        
+                    ]
+                },
+                {
+                    "name": "graph"
+                }
+            ]
+        },
+        {
+            "name": "animate",
+            "children": [
+                {
+                    "name": "Easing",
+                    "value": 17010
+                },
+                {
+                    "name": "interpolate",
+                    "children": [
+                        {
+                            "name": "PointInterpolator",
+                            "value": 1675
+                        },
+                        {
+                            "name": "RectangleInterpolator",
+                            "value": 2042
+                        }
+                    ]
+                },
+                {
+                    "name": "ISchedulable",
+                    "value": 1041
+                }
+            ]
+        }
+        
+    ]
+}

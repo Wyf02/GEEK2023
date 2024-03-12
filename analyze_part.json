@@ -1,0 +1,1189 @@
+[
+    {
+        "name": "<org.apache.solr.search.facet.FacetProcessor: boolean handleBlockJoin()>",
+        "value": "boolean handleBlockJoin()>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.search.JoinQParserPlugin$1: org.apache.lucene.search.Query parse()>",
+                        "value": "org.apache.lucene.search.Query parse()>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": [
+                            {
+                                "name": "<org.apache.solr.search.JoinQParserPlugin$Method$2: org.apache.lucene.search.Query makeFilter(org.apache.solr.search.QParser,org.apache.solr.search.JoinQParserPlugin)>",
+                                "value": "org.apache.lucene.search.Query makeFilter(org.apache.solr.search.QParser,org.apache.solr.search.JoinQParserPlugin)>",
+                                "label": {
+                                    "offset": [
+                                        10,
+                                        0
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "name": "<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.lucene.search.Query parse()>",
+                                        "value": "org.apache.lucene.search.Query parse()>",
+                                        "label": {
+                                            "offset": [
+                                                10,
+                                                0
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.solr.common.SolrDocument getDocument(java.lang.String)>",
+                                                "value": "org.apache.solr.common.SolrDocument getDocument(java.lang.String)>",
+                                                "label": {
+                                                    "offset": [
+                                                        10,
+                                                        0
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                                                        "value": "void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                                                        "label": {
+                                                            "offset": [
+                                                                10,
+                                                                0
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.api.ApiBag$ReqHandlerToApi: void call(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void call(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                "value": "void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.handler.admin.CoreAdminHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                        "value": "void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": [
+                            {
+                                "name": "<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void run()>",
+                                "value": "void run()>",
+                                "label": {
+                                    "offset": [
+                                        10,
+                                        0
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "name": "<org.apache.logging.log4j.core.appender.mom.JmsManager$Reconnector: void reconnect()>",
+                                        "value": "void reconnect()>",
+                                        "label": {
+                                            "offset": [
+                                                10,
+                                                0
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>",
+                                                "value": "javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>",
+                                                "label": {
+                                                    "offset": [
+                                                        10,
+                                                        0
+                                                    ]
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.api.AnnotatedApi$Cmd: void invoke(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse,org.apache.solr.common.util.CommandOperation)>",
+        "value": "void invoke(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse,org.apache.solr.common.util.CommandOperation)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>",
+                "value": "java.lang.Object next()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap access$000(org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream)>",
+                        "value": "org.apache.solr.common.util.SimpleOrderedMap access$000(org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream)>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": [
+                            {
+                                "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap nextBucket()>",
+                                "value": "org.apache.solr.common.util.SimpleOrderedMap nextBucket()>",
+                                "label": {
+                                    "offset": [
+                                        10,
+                                        0
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream: org.apache.solr.common.util.SimpleOrderedMap _nextBucket()>",
+                                        "value": "org.apache.solr.common.util.SimpleOrderedMap _nextBucket()>",
+                                        "label": {
+                                            "offset": [
+                                                10,
+                                                0
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "<org.apache.solr.search.facet.FacetProcessor: void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+                                                "value": "void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+                                                "label": {
+                                                    "offset": [
+                                                        10,
+                                                        0
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "name": "<org.apache.solr.search.facet.FacetRequest: java.lang.Object process(org.apache.solr.search.facet.FacetContext)>",
+                                                        "value": "java.lang.Object process(org.apache.solr.search.facet.FacetContext)>",
+                                                        "label": {
+                                                            "offset": [
+                                                                10,
+                                                                0
+                                                            ]
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "name": "<org.apache.solr.search.facet.FacetProcessor: void process()>",
+                                                                "value": "void process()>",
+                                                                "label": {
+                                                                    "offset": [
+                                                                        10,
+                                                                        0
+                                                                    ]
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "name": "<org.apache.solr.search.facet.FacetProcessor: void handleDomainChanges()>",
+                                                                        "value": "void handleDomainChanges()>",
+                                                                        "label": {
+                                                                            "offset": [
+                                                                                10,
+                                                                                0
+                                                                            ]
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+        "value": "void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.CdcrStateManager: void callback()>",
+                "value": "void callback()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.handler.CdcrReplicatorManager: void stateUpdate()>",
+                        "value": "void stateUpdate()>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": [
+                            {
+                                "name": "<org.apache.solr.handler.CdcrReplicatorManager: void closeLogReaders()>",
+                                "value": "void closeLogReaders()>",
+                                "label": {
+                                    "offset": [
+                                        10,
+                                        0
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>",
+                                        "value": "java.lang.Object next()>",
+                                        "label": {
+                                            "offset": [
+                                                10,
+                                                0
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>",
+        "value": "org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.schema.ManagedIndexSchema: org.apache.solr.schema.ManagedIndexSchema deleteFieldTypes(java.util.Collection)>",
+                "value": "org.apache.solr.schema.ManagedIndexSchema deleteFieldTypes(java.util.Collection)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.schema.IndexSchema: void refreshAnalyzers()>",
+                        "value": "void refreshAnalyzers()>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": [
+                            {
+                                "name": "<org.apache.solr.schema.IndexSchema$SolrIndexAnalyzer: void <init>(org.apache.solr.schema.IndexSchema)>",
+                                "value": "void <init>(org.apache.solr.schema.IndexSchema)>",
+                                "label": {
+                                    "offset": [
+                                        10,
+                                        0
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "name": "<org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer: java.util.HashMap analyzerCache()>",
+                                        "value": "java.util.HashMap analyzerCache()>",
+                                        "label": {
+                                            "offset": [
+                                                10,
+                                                0
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>",
+                                                "value": "java.lang.Object next()>",
+                                                "label": {
+                                                    "offset": [
+                                                        10,
+                                                        0
+                                                    ]
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.CdcrRequestHandler: void handleDisableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void handleDisableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.CdcrBufferStateManager: void synchronize()>",
+                "value": "void synchronize()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.handler.CdcrBufferStateManager: void setState(org.apache.solr.handler.CdcrParams$BufferState)>",
+                        "value": "void setState(org.apache.solr.handler.CdcrParams$BufferState)>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.SolrReturnFields: void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.util.SolrPluginUtils: java.util.List parseQueryStrings(org.apache.solr.request.SolrQueryRequest,java.lang.String[])>",
+        "value": "java.util.List parseQueryStrings(org.apache.solr.request.SolrQueryRequest,java.lang.String[])>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.CdcrRequestHandler: void handleStopAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void handleStopAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.CdcrProcessStateManager: void synchronize()>",
+                "value": "void synchronize()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+                        "value": "void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.SolrReturnFields: void parseFieldList(java.lang.String[],org.apache.solr.request.SolrQueryRequest)>",
+        "value": "void parseFieldList(java.lang.String[],org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.SolrReturnFields: void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>",
+                "value": "void add(java.lang.String,org.apache.solr.common.util.NamedList,org.apache.solr.response.transform.DocTransformers,org.apache.solr.request.SolrQueryRequest)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.CdcrRequestHandler: void handleEnableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void handleEnableBufferAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.CdcrBufferStateManager: void setState(org.apache.solr.handler.CdcrParams$BufferState)>",
+                "value": "void setState(org.apache.solr.handler.CdcrParams$BufferState)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.handler.CdcrStateManager: void callback()>",
+                        "value": "void callback()>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.util.hll.HLL: void homogeneousUnion(org.apache.solr.util.hll.HLL)>",
+        "value": "void homogeneousUnion(org.apache.solr.util.hll.HLL)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.util.hll.HLL: void addRaw(long)>",
+                "value": "void addRaw(long)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.search.facet.FacetFieldProcessorByEnumTermsStream$1: java.lang.Object next()>",
+                        "value": "java.lang.Object next()>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.Grouping: void addQueryCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "void addQueryCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.Grouping: void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.response.transform.ChildDocTransformerFactory: org.apache.lucene.search.Query parseQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest,java.lang.String)>",
+        "value": "org.apache.lucene.search.Query parseQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest,java.lang.String)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.BlobHandler: void verifyWithRealtimeGet(java.lang.String,long,org.apache.solr.request.SolrQueryRequest,java.util.Map)>",
+        "value": "void verifyWithRealtimeGet(java.lang.String,long,org.apache.solr.request.SolrQueryRequest,java.util.Map)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.BlobHandler: void forward(org.apache.solr.request.SolrQueryRequest,java.lang.String,org.apache.solr.common.params.SolrParams,org.apache.solr.response.SolrQueryResponse)>",
+                "value": "void forward(org.apache.solr.request.SolrQueryRequest,java.lang.String,org.apache.solr.common.params.SolrParams,org.apache.solr.response.SolrQueryResponse)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                        "value": "void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.logging.log4j.core.net.JndiManager: java.lang.Object lookup(java.lang.String)>",
+        "value": "java.lang.Object lookup(java.lang.String)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": []
+    },
+    {
+        "name": "<org.apache.solr.core.SolrCore: void execute(org.apache.solr.request.SolrRequestHandler,org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void execute(org.apache.solr.request.SolrRequestHandler,org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.RequestHandlerBase: void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                "value": "void handleRequest(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>",
+        "value": "org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>",
+                "value": "org.apache.solr.schema.ManagedIndexSchema removeLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.util.hll.HLL: void union(org.apache.solr.util.hll.HLL)>",
+        "value": "void union(org.apache.solr.util.hll.HLL)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.util.hll.HLL: void homogeneousUnion(org.apache.solr.util.hll.HLL)>",
+                "value": "void homogeneousUnion(org.apache.solr.util.hll.HLL)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.facet.FacetProcessor: void handleDomainChanges()>",
+        "value": "void handleDomainChanges()>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.facet.FacetProcessor: boolean handleBlockJoin()>",
+                "value": "boolean handleBlockJoin()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.designer.SchemaDesignerAPI: void analyze(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void analyze(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.designer.SchemaDesignerConfigSetHelper: org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>",
+                "value": "org.apache.solr.schema.ManagedIndexSchema syncLanguageSpecificObjectsAndFiles(java.lang.String,org.apache.solr.schema.ManagedIndexSchema,java.util.List,boolean,java.lang.String)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query parseParentFilter()>",
+        "value": "org.apache.lucene.search.Query parseParentFilter()>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>",
+        "value": "javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.logging.log4j.core.net.JndiManager: java.lang.Object lookup(java.lang.String)>",
+                "value": "java.lang.Object lookup(java.lang.String)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.component.StatsComponent: void handleResponses(org.apache.solr.handler.component.ResponseBuilder,org.apache.solr.handler.component.ShardRequest)>",
+        "value": "void handleResponses(org.apache.solr.handler.component.ResponseBuilder,org.apache.solr.handler.component.ShardRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.component.AbstractStatsValues: void accumulate(org.apache.solr.common.util.NamedList)>",
+                "value": "void accumulate(org.apache.solr.common.util.NamedList)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": [
+                    {
+                        "name": "<org.apache.solr.util.hll.HLL: void union(org.apache.solr.util.hll.HLL)>",
+                        "value": "void union(org.apache.solr.util.hll.HLL)>",
+                        "label": {
+                            "offset": [
+                                10,
+                                0
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.MoreLikeThisHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query wrapSubordinateClause(org.apache.lucene.search.Query)>",
+        "value": "org.apache.lucene.search.Query wrapSubordinateClause(org.apache.lucene.search.Query)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.join.BlockJoinParentQParser: org.apache.lucene.search.Query parseParentFilter()>",
+                "value": "org.apache.lucene.search.Query parseParentFilter()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>",
+                "value": "org.apache.solr.search.SortSpec parseSortSpecImpl(java.lang.String,org.apache.solr.schema.IndexSchema,org.apache.solr.request.SolrQueryRequest)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.Grouping: void addFieldCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "void addFieldCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.Grouping: void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+                "value": "void addFunctionCommand(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.facet.FacetProcessor: org.apache.lucene.search.Query parserFilter(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "org.apache.lucene.search.Query parserFilter(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>",
+        "value": "javax.jms.Destination access$400(org.apache.logging.log4j.core.appender.mom.JmsManager,org.apache.logging.log4j.core.net.JndiManager)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.logging.log4j.core.appender.mom.JmsManager: javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>",
+                "value": "javax.jms.Destination createDestination(org.apache.logging.log4j.core.net.JndiManager)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.CdcrRequestHandler: void handleStartAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void handleStartAction(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.handler.CdcrProcessStateManager: void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+                "value": "void setState(org.apache.solr.handler.CdcrParams$ProcessState)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.util.SolrPluginUtils: org.apache.lucene.search.Sort getSort(org.apache.solr.request.SolrQueryRequest)>",
+        "value": "org.apache.lucene.search.Sort getSort(org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.SortSpecParsing: org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+                "value": "org.apache.solr.search.SortSpec parseSortSpec(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder: org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder setQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "value": "org.apache.solr.search.grouping.distributed.command.QueryCommand$Builder setQuery(java.lang.String,org.apache.solr.request.SolrQueryRequest)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.QParser: org.apache.lucene.search.Query getQuery()>",
+                "value": "org.apache.lucene.search.Query getQuery()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.search.facet.FacetProcessor: void fillBucket(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+        "value": "void fillBucket(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.facet.FacetProcessor: void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+                "value": "void processSubs(org.apache.solr.common.util.SimpleOrderedMap,org.apache.lucene.search.Query,org.apache.solr.search.DocSet,boolean,java.util.Map)>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "<org.apache.solr.handler.BlobHandler: void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "value": "void handleRequestBody(org.apache.solr.request.SolrQueryRequest,org.apache.solr.response.SolrQueryResponse)>",
+        "label": {
+            "offset": [
+                10,
+                0
+            ]
+        },
+        "children": [
+            {
+                "name": "<org.apache.solr.search.mlt.CloudMLTQParser: org.apache.lucene.search.Query parse()>",
+                "value": "org.apache.lucene.search.Query parse()>",
+                "label": {
+                    "offset": [
+                        10,
+                        0
+                    ]
+                },
+                "children": []
+            }
+        ]
+    }
+]

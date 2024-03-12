@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwork"]=self["webpackChunkwork"]||[]).push([[497],{1497:function(n,r,e){e.r(r),e.d(r,{default:function(){return a}});var s=e(3396);const t={class:"submisson-interface-view"};function u(n,r){const e=(0,s.up)("router-view");return(0,s.wg)(),(0,s.iD)("div",t,[(0,s.Wm)(e)])}var c=e(89);const i={},o=(0,c.Z)(i,[["render",u]]);var a=o}}]);
+//# sourceMappingURL=497.64178262.js.map
